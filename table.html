@@ -1,0 +1,170 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+{% endblock head %}
+
+
+{% block content %}
+    <!-- table[id="mytable"]>(thead>th*5>lorem1)+tbody>tr*20>td*5>lorem1 -->
+    <table id="myTable" class="display">
+      <thead>
+          <th>Lorem.</th>
+          <th>Quaerat!</th>
+          <th>Earum!</th>
+          <th>Cumque?</th>
+          <th>Et?</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Lorem.</td>
+              <td>Quae?</td>
+              <td>Placeat?</td>
+              <td>Sunt?</td>
+              <td>Nemo?</td>
+          </tr>
+          <tr>
+              <td>Molestiae!</td>
+              <td>Veniam.</td>
+              <td>Quidem?</td>
+              <td>Labore.</td>
+              <td>Rem?</td>
+          </tr>
+          <tr>
+              <td>Quidem?</td>
+              <td>Unde.</td>
+              <td>Eius?</td>
+              <td>Quae!</td>
+              <td>Officiis.</td>
+          </tr>
+          <tr>
+              <td>Quibusdam!</td>
+              <td>Quo!</td>
+              <td>Voluptatibus.</td>
+              <td>Velit.</td>
+              <td>Assumenda?</td>
+          </tr>
+          <tr>
+              <td>Maiores!</td>
+              <td>Nulla?</td>
+              <td>Qui?</td>
+              <td>Sunt.</td>
+              <td>Culpa!</td>
+          </tr>
+          <tr>
+              <td>Nesciunt.</td>
+              <td>Nesciunt.</td>
+              <td>Quaerat?</td>
+              <td>Soluta.</td>
+              <td>Ab.</td>
+          </tr>
+          <tr>
+              <td>Eum!</td>
+              <td>Id.</td>
+              <td>Id.</td>
+              <td>Incidunt.</td>
+              <td>Facilis!</td>
+          </tr>
+          <tr>
+              <td>Quae?</td>
+              <td>Ducimus!</td>
+              <td>Fugiat?</td>
+              <td>Eaque?</td>
+              <td>Natus!</td>
+          </tr>
+          <tr>
+              <td>Sapiente.</td>
+              <td>Ea.</td>
+              <td>Possimus!</td>
+              <td>Reiciendis!</td>
+              <td>Vero.</td>
+          </tr>
+          <tr>
+              <td>Totam?</td>
+              <td>Vitae.</td>
+              <td>Praesentium!</td>
+              <td>Omnis.</td>
+              <td>Itaque.</td>
+          </tr>
+          <tr>
+              <td>Quam.</td>
+              <td>Excepturi?</td>
+              <td>Quos.</td>
+              <td>Cupiditate!</td>
+              <td>Fugiat!</td>
+          </tr>
+          <tr>
+              <td>Quidem.</td>
+              <td>Cupiditate.</td>
+              <td>Laborum.</td>
+              <td>Perferendis.</td>
+              <td>Quas.</td>
+          </tr>
+          <tr>
+              <td>Corrupti!</td>
+              <td>Consequuntur.</td>
+              <td>Dolore.</td>
+              <td>Temporibus?</td>
+              <td>Culpa?</td>
+          </tr>
+          <tr>
+              <td>Quibusdam!</td>
+              <td>Ducimus?</td>
+              <td>Similique!</td>
+              <td>Nemo.</td>
+              <td>Odit.</td>
+          </tr>
+          <tr>
+              <td>Quo!</td>
+              <td>Nisi.</td>
+              <td>Possimus.</td>
+              <td>Voluptatem!</td>
+              <td>Cupiditate!</td>
+          </tr>
+          <tr>
+              <td>Alias.</td>
+              <td>Doloribus.</td>
+              <td>Sit?</td>
+              <td>Quod.</td>
+              <td>Illo?</td>
+          </tr>
+          <tr>
+              <td>Voluptatem.</td>
+              <td>Nemo.</td>
+              <td>Animi!</td>
+              <td>Excepturi.</td>
+              <td>Illo.</td>
+          </tr>
+          <tr>
+              <td>Eveniet?</td>
+              <td>Ullam.</td>
+              <td>Inventore!</td>
+              <td>Nam.</td>
+              <td>Quos!</td>
+          </tr>
+          <tr>
+              <td>Nesciunt.</td>
+              <td>Magni.</td>
+              <td>Voluptatem?</td>
+              <td>Corporis.</td>
+              <td>Blanditiis!</td>
+          </tr>
+          <tr>
+              <td>Beatae.</td>
+              <td>Sunt?</td>
+              <td>Consequatur?</td>
+              <td>Illum?</td>
+              <td>Eos.</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <script>
+      $(document).ready( function () {
+          $('#myTable').DataTable();
+      } );    
+
+  </script>
+
+{% endblock %}
